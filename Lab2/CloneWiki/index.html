@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uk" style="font-size: 14px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <!-- UBUNTU FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>WikiSoap</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: 'Ubuntu', sans-serif;">
+    <main style="display: flex; flex-direction: row;">
+        
+        <nav style=" width: 150px; padding: 30px 20px; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 30px; background: rgb(245, 245, 245); border-right: 1px solid rgba(66, 161, 255, .4); ">
+            <div style="display: flex; flex-direction: column; gap: 30px;">
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <div>
+                        <img src="./img/ukwiki.png" alt="WikiSoapLogo">
+                    </div>
+                    <span style="font-size: 1.4rem;">ВікісоуП</span>
+                    <span style="font-size: .9rem;">Мильна енциклопедія</span>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <a href="index.html" style="text-decoration: none; ">Головна сторінка</a>
+                    <a href="#" style="text-decoration: none; ">Поточні події</a>
+                    <a href="#" style="text-decoration: none; ">Нові редагування</a>
+                    <a href="#" style="text-decoration: none; ">Нові сторінки</a>
+                    <a href="#" style="text-decoration: none; ">Випадкова стаття</a>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column;">
+                <span style="margin: 6px 0px; padding: 2px 0px; border-bottom: 1px solid rgba(128, 128, 128, .4); color: rgba(128, 128, 128, .8);">Участь</span>
+                <a href="#" style="text-decoration: none; ">Портал спільноти</a>
+                <a href="#" style="text-decoration: none; ">Кнайпа</a>
+                <a href="#" style="text-decoration: none; ">Довідка</a>
+                <a href="#" style="text-decoration: none; ">Пожертвувати</a>
+                <a href="#" style="text-decoration: none; ">Сторінка для медіа</a>
+            </div>
+        </nav>
+
+        <div style="width: 100%; border-bottom: 1px solid rgba(66, 161, 255, .4);;">
+            <nav>
+                <div style="padding: 5px 15px; display: flex; flex-direction: row; justify-content: flex-end; align-items: flex-start; gap: 13px;">
+                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 4px;">
+                        <img src="./img/profile.png" alt="profileImage" style="width: 20px;">
+                        <span style="font-size: .9rem; color: gray;">Ви не увійшли до системи</span>
+                    </div>
+                    <a href="#" style="text-decoration: none; ">Обговорення</a>
+                    <a href="#" style="text-decoration: none; ">Внесок</a>
+                    <a href="#" style="text-decoration: none; ">Створити обліковий запис</a>
+                    <a href="#" style="text-decoration: none; ">Увійти</a>
+                </div>
+
+                <div style="padding: 15px 5px; display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-end; gap: 46%;">
+                    <div>
+                        <a href="#" style="padding: 3px 5px; text-decoration: none; color: rgb(0, 0, 0); ">Стаття</a>
+                        <a href="#" style="padding: 3px 5px; text-decoration: none; background: rgba(122, 197, 255, 0.1); border-left: 1px solid rgba(66, 161, 255, .4); border-right: 1px solid rgba(66, 161, 255, .4);">Обговорення</a>
+                    </div>
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-end; gap: 10px;">
+                        <a href="#" style="text-decoration: none; color: rgb(0, 0, 0); ">Читати</a>
+                        <a href="#" style="text-decoration: none; background: rgba(122, 197, 255, 0.1); border-left: 1px solid rgba(66, 161, 255, .4); border-bottom: 1px solid rgba(66, 161, 255, .4); border-right: 1px solid rgba(66, 161, 255, .4);">Редагувати</a>
+                        <a href="#" style="text-decoration: none; background: rgba(122, 197, 255, 0.1); border-left: 1px solid rgba(66, 161, 255, .4); border-bottom: 1px solid rgba(66, 161, 255, .4); border-right: 1px solid rgba(66, 161, 255, .4);">Редагувати код</a>
+                        <a href="#" style="text-decoration: none; background: rgba(122, 197, 255, 0.1); border-left: 1px solid rgba(66, 161, 255, .4); border-bottom: 1px solid rgba(66, 161, 255, .4); border-right: 1px solid rgba(66, 161, 255, .4);">Переглянути історію</a>
+                        <div>
+                            <input type="text" placeholder="Пошук у Вікісоупі" style="width: 325px; padding: 5px 10px;">
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; border-bottom: 1px solid gray;">
+                    <span style="font-size: 2.5rem; font-weight: bold;">HTTPS</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]    
+                    </span>
+                </div>
+                <span style="padding: 15px 0px 0px;">Матеріал з Вікісопії — мильної енциклопедії.</span>
+                <span style="padding: 20px 0px;"><b>HTTPS</b> (абр. від англ. HyperText Transfer Protocol Secure; інші назви: HTTP over TLS, HTTP over SSL, і HTTP Secure) — схема URI, що синтаксично ідентична http: схемі, яка зазвичай використовується для доступу до ресурсів Інтернет. Використання https: URL вказує, що протокол HTTP має використовуватися, але з іншим портом за замовчуванням (443) і додатковим шаром шифрування/автентифікації між HTTP і TCP. Ця схема була винайдена у компанії Netscape Communications Corporation для забезпечення автентифікації та шифрування комунікацій і широко використовується в Інтернеті у програмному забезпеченні, в якому важлива безпека комунікацій, наприклад, у платіжних системах та корпоративних логінах.</span>
+                
+                <div style="width: 8%; padding: 10px 5px; display: flex; flex-direction: column; background: rgba(222, 222, 222, .2); border: 1px solid rgb(181, 181, 181); justify-content: center; align-items: center;">
+                    <span><b>Зміст</b> [<a style="text-decoration: none;" href="#">сховати</a>]</span>
+                    <ol style="margin: 0; padding: 10px 5px;">
+                        <li style="padding: 5px 0px;"><a style="text-decoration: none;" href="#">Принцип дії</a></li>
+                        <li style="padding: 5px 0px;"><a style="text-decoration: none;" href="#">Обмеження</a></li>
+                        <li style="padding: 5px 0px;"><a style="text-decoration: none;" href="#">Примітки</a></li>
+                        <li style="padding: 5px 0px;"><a style="text-decoration: none;" href="#">Див. також</a></li>
+                    </ol>
+                </div>
+            </aside>
+
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; padding: 20px 0px 5px; border-bottom: 1px solid gray;">
+                    <span style="font-size: 1.5rem;">Принцип роботи</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]</span>
+                </div>
+                <div style="padding: 20px 0px;">
+                    Оскільки HTTPS це фактично HTTP, який передається через SSL або TLS, то майже всі його основні елементи шифруються: URL-запити, включаючи шлях та назву ресурсу (сторінки), параметри запиту, заголовки та кукі, які часто містять ідентифікаційні дані про користувача. Не шифруються: назва або адреса хоста (вебсайту) та порт, оскільки вони використовуються транспортним протоколом TCP/IP для встановлення з'єднання.
+                    <br>Шифрування гарантує помірний захист від підслуховування та від нападу «людина посередині» (man-in-the-middle), за умови це коректних налаштувань та підпису сертифікату авторизованим центром сертифікації.
+                    <br><br>TCP портом за замовчуванням для HTTPS є 443, для HTTP — 80.
+                    <br><br>Щоб підготувати вебсервер для прийняття https транзакцій адміністратор повинен створити сертифікат з відкритим ключем для вебсервера. Ці сертифікати можуть бути створені на UNIX сервері такими програмами, як наприклад OpenSSL. Цей сертифікат повинен бути підписаний уповноваженим на видачу сертифікатів (certificate authority), який засвідчує, що отримувач сертифікату — саме той, про кого йдеться у сертифікаті.
+                    <br><br>Браузери розповсюджуються з сертифікатами центрів сертифікації верхнього рівня, що дозволяє браузерові перевіряти сертифікати, які були підписані цими центрами.
+                    <br><br>Довіряти HTTPS з'єднанню можна тоді і тільки тоді, коли всі наступні твердження коректні:
+                    <br><br>Користувач довіряє тому, що у браузері правильно забезпечено підтримку HTTPS із коректними попередньо встановленими сертифікатами уповноважених на видачу сертифікатів.
+                    <ul>
+                        <li>Користувач довіряє тому, що уповноважені на видачу сертифікатів засвідчують тільки відповідні (справжні) вебсайти.</li>
+                        <li>Вебсайт надає дійсний сертифікат, тобто підписаний довіреним центром сертифікації.</li>
+                        <li>Сертифікат конкретно розпізнає вебсайт (тобто коли браузер відвідує сторінку "https://example.com [Архівовано 29 жовтня 2020 у Wayback Machine.]", отриманий сертифікат правильний для "example.com", а не для інших доменних імен).</li>
+                        <li>Користувач довіряє тому, що криптографічний рівень (шифрування за допомогою SSL/TLS) достатньо надійний, щоб захиститися від дешифрування.</li>
+                        <li>Протокол HTTPS особливо важливий у незахищених мережах (таких як публічні Wi-Fi точки доступу), оскільки будь-хто в локальних мережах може аналізувати трафік та перехоплювати чи змінювати інформацію, не захищену HTTPS. Це означає, що гіпотетичний зловмисник може потенційно красти приватні дані користувача, отримувати доступ до облікового запису, вставляти шкідливий програмний код чи посилання на програмне забезпечення у сторінки, що надсилаються користувачеві у відповідь на його запити, тощо. </li>
+                    </ul>
+                    <br>Організації можуть також мати власних уповноважених на видачу сертифікатів, особливо якщо вони відповідальні за конфігурацію браузерів, що мають доступ до їх власних сайтів (наприклад, сайти на внутрішній мережі компанії), оскільки вони можуть тривіально додати свій власний сертифікат до браузера.
+                    <br><br>Деякі сайти використовують самостійно підписані сертифікати. Їх використання забезпечує захист проти підслуховування, але є ризик нападу «людина-посередині». Для запобігання нападу необхідна перевірка сертифікату іншим методом (наприклад подзвонити власнику сертифіката задля перевірки контрольної суми сертифіката).
+                    <br><br>Система може також використовуватися для клієнтської автентифікації, щоб обмежити доступ до вебсервера тільки зареєстрованими користувачами. Для цього адміністратор сайту створює сертифікати для кожного користувача, які завантажуються в їхні браузер. Такі сертифікати зазвичай містять ім'я і електронну пошту зареєстрованого користувача, й автоматично перевіряються сервером при кожному повторному підключенні. Повторне введення паролю не потрібне.
+                    <br><br>Станом на початок 2017 р. HTTPS використовується на 10.13 % всіх українських доменів[6].
+                </div>
+            </aside>
+
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; padding: 10px 0px 5px; border-bottom: 1px solid gray;">
+                    <span style="font-size: 1.5rem;">Обмеження</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]</span>
+                </div>
+                <span style="padding: 20px 0px;">
+                    Рівень захисту залежить від коректності запровадження браузерного і серверного програмного забезпечення та підтримуваних криптографічних алгоритмів.
+                    <br><br>Серед користувачів кредитних карток в Інтернеті існує помилкова думка, що HTTPS повністю захищає номер їхньої картки від злодіїв. Фактично шифроване підключення до вебсервера тільки захищає номер кредитної картки при передаванні між комп'ютером користувача і сервером безпосередньо. Це не гарантує що сервер безпосередньо захищений — він навіть може бути зламаним.
+                    <br><br>Напади на вебсервери, які зберігають дані клієнта, здійснити простіше, ніж намагатись перехопити дані при передачі. Вважається, що комерційні сайти негайно пересилають операції, що поступають до шлюзу оплати і зберігають тільки операційний номер, але вони часто зберігають номери карток в базі даних. Звичайно сервер і база даних є ціллю для нападу.
+                    <br><br>Передача даних через захищені канали допомагає усунути деякі ризики: при використанні TLS, HSTS, фіксованих публічних ключів, веббраузер може бути впевнений, що він отримує дані з саме того сервера, до якого він звернувся. Проте, ці механізми автентифікують лише сервер, але не отримані дані. Зловмисник (або адміністратор вебсайту) з доступом до сервера може довільно змінювати дані. Механізм SRI дозволяє авторам вебсторінок гарантувати, що користувачі завантажуватимуть зі сторонніх вебсайтів тільки ті ресурси, які визначив автор сторінки[7].
+                    <br><br>Проте, застосування TLS не гарантує захисту від витоків інформації про з'єднання. Наприклад, зловмисник може дізнаватись сервери, до яких звертався браузер, щонайменше з чотирьох джерел: повідомлення з сертифікатом TLS, запит до DNS, IP-адреса сервера, та розширення TLS Server Name Indication (TLS SNI). Проти деяких з цих «сторонніх каналів» існують методи захисту. Зокрема, в протоколі TLS 1.3 серверний сертифікат передається у зашифрованому вигляді за замовчуванням, а для захисту від витоків через SNI було розроблене розширення протоколу «шифрованої індикації імені сервера» — Encrypted Server Name Indication (ESNI)[8].
+                    <br><br>Слід також зазначити, що використання сайтом HTTPS не гарантує захисту від шахрайства. Так, наприклад, за даними 2017 року дедалі більше фішингових вебсайтів стали використовувати HTTPS з дійсними сертифікатами для введення користувачів в оману[9].
+                </span>
+            </aside>
+
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; padding: 10px 0px 5px; border-bottom: 1px solid gray;">
+                    <span style="font-size: 1.5rem;">Примітки</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]</span>
+                </div>
+                <div style="padding: 20px 0px;">
+                    <ol style="margin: 0;">
+                        <li>Network Working Group (May 2000). HTTP Over TLS. The Internet Engineering Task Force. Архів оригіналу за 31 жовтня 2018. Процитовано 30 січня 2017.</li>
+                        <li>HTTPS as a ranking signal. Google Webmaster Central Blog. Google Inc. 6 серпня 2014. Архів оригіналу за 8 березня 2016. Процитовано 30 січня 2017. «You can make your site secure with HTTPS (Hypertext Transfer Protocol Secure) [...]»</li>
+                        <li> Enabling HTTP Over SSL. Adobe Systems Incorporated. Архів оригіналу за 8 березня 2015. Процитовано 30 січня 2017.</li>
+                        <li>Secure your site with HTTPS. Google Support. Google, Inc. Архів оригіналу за 15 грудня 2017. Процитовано 30 січня 2017.</li>
+                        <li>What is HTTPS?. Comodo CA Limited. Архів оригіналу за 12 лютого 2015. Процитовано 30 січня 2017. «Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP [...]»</li>
+                    </ol>
+                </div>
+            </aside>
+
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; padding: 10px 0px 5px; border-bottom: 1px solid gray;">
+                    <span style="font-size: 1.5rem;">Див. також</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]</span>
+                </div>
+                <div style="padding: 20px 0px;">
+                    <ul style="margin: 0;">
+                        <li><a href="https://uk.wikipedia.org/wiki/Transport_Layer_Security">Transport Layer Security</a> (TLS)</li>
+                        <li><a href="https://uk.wikipedia.org/wiki/SSL">Secure Sockets Layer</a> (SSL)</li>
+                        <li><a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D1%80%D0%B0%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%85_%D0%BA%D0%BB%D1%8E%D1%87%D1%96%D0%B2">Інфраструктура відкритих ключів</a></li>
+                    </ul>
+                </div>
+            </aside>
+            
+            <aside style="width: 90%; margin: 5px 30px; display: flex; flex-direction: column;">
+                <div style="width: 100%; padding: 10px 0px 5px; border-bottom: 1px solid gray;">
+                    <span style="font-size: 1.5rem;">Дод. зображення</span>
+                    <span>[<a style="text-decoration: none;" href="#">ред.</a> | <a style="text-decoration: none;" href="#">ред. код</a>]</span>
+                </div>
+                <div style="padding: 30px 0px; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 20px;">
+                    <img style="width: 20%;" src="./img/http.jpg" alt="httpImage">
+                    <img style="width: 25%;" src="./img/tcp.png" alt="tcpImage">
+                    <img style="width: 25%;" src="./img/tls.png" alt="tlsImage">
+                    <img style="width: 20%;" src="./img/ip.png" alt="ipImage">
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer style="width: 100%; padding: 20px 0px; background: rgb(245, 245, 245);">
+        <div style="margin: 0px 0px 0px 200px;">
+            <span style="padding: 20px 0px 0px;">Цю сторінку востаннє відредаговано о 11:00, 02 березня 2024.</span>
+            <br>
+            <br>
+            <span style="padding: 10px 0px;">Текст доступний на умовах ліцензії Creative Commons Attribution-ShareAlike; також можуть діяти додаткові умови. Детальніше див. <a href="#">Умови використання.</a></span>    
+        </div>
+        <div style="margin: 20px 0px 0px 200px; display: flex; flex-direction: row; gap: 10px;">
+            <a href="#" style="text-decoration: none; ">Політика конфедіційності</a>
+            <a href="#" style="text-decoration: none; ">Про Вікісопію</a>
+            <a href="#" style="text-decoration: none; ">Відмова від відповідальності</a>
+            <a href="#" style="text-decoration: none; ">Зворотній зв'язок</a>
+            <a href="#" style="text-decoration: none; ">Кодекс поведінки</a>
+            <a href="#" style="text-decoration: none; ">Розробники</a>
+            <a href="#" style="text-decoration: none; ">Статистика</a>
+            <a href="#" style="text-decoration: none; ">Куки</a>
+            <a href="#" style="text-decoration: none; ">Мобільний вигляд</a>
+        </div>
+    </footer>
+</body>
+
+</html>

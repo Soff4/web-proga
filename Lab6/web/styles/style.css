@@ -1,0 +1,150 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    margin: 20px 0px 0px 0px;
+    max-width: 1920px;
+    height: 110px;
+
+    flex-shrink: 1;
+
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        img {
+            width: 64px;
+        }
+    
+        .header__navigation {
+            margin-right: 80px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+
+            a {
+                text-decoration: none;
+                font-size: 18px;
+                color: #4E4E4E;
+            }
+
+            a.active {
+                color: #49C0CC;
+            }
+        }
+
+    }
+}
+
+main {
+    padding: 50px 0px;
+    max-width: 1920px;
+    flex-grow: 1;
+
+    display: flex;
+    justify-content: center;
+
+    .main__container {
+        width: 50%;
+
+        .container__title {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            span.title__text {
+                font-size: 18px;
+                line-height: 25px;
+                color: #4E4E4E;
+            }
+
+            .title__wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 5px;
+
+                span.wrapper-text {
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #4E4E4E;
+                }
+            }
+
+            .frame__wrapper {
+                width: 100%;
+                iframe {
+                    width: 100%;
+                }
+            }
+        }
+
+        .container__infocard {
+            margin-top: 30px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 80px;
+
+            .card-info {
+                padding: 25px 20px;
+                width: 350px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 10px;
+
+                border-radius: 15px;
+                background: #F4FBFC;
+                
+                h3 {
+                    color: #3c3c3c;
+                }
+
+                span {
+                    font-size: 16px;
+                    line-height: 25px;
+                    color: #4E4E4E;
+                }
+
+                a {
+                    font-size: 16px;
+                    color: #2a2a2a;
+                }
+            }
+        }
+
+        .container__feedback {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}
+
+footer {
+    max-width: 1920px;
+    height: 250px;
+
+    flex-shrink: 1;
+}
